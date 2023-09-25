@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Arvo&family=Bree+Serif&family=Crete+Round&family=Inclusive+Sans&family=Josefin+Sans:wght@100&family=Nunito:wght@200&family=Open+Sans:wght@300&family=Syne&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: Open Sans;
+  background-color: #020a18;
+}
+
+.header-container {
+  position: relative;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-text {
+  font-size: 20px;
+  color: #3a68b8;
+  position: relative;
+  right: 200px;
+  top: 30px;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  top: 35px;
+}
+
+.menu {
+  display: flex;
+  gap: 60px;
+  position: relative;
+  right: 130px;
+}
+
+.menu a:hover {
+  color: grey;
+}
+.btn {
+  position: relative;
+  top: 30px;
+  width: 80px;
+  height: 30px;
+  background-color: #3a68b8;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.section-container {
+  display: flex;
+  gap: 200px;
+  margin-top: 100px;
+}
+
+.navbar {
+  margin-top: 100px;
+}
+.text-sect1 {
+  font-size: 20px;
+  color: #3a68b8;
+}
+.text-sect2 {
+  margin-top: 20px;
+  color: white;
+  font-size: 40px;
+}
+.p-text {
+  margin-top: 10px;
+  color: grey;
+  line-height: 30px;
+}
+.btn1 {
+  width: 100px;
+  height: 30px;
+  background-color: #3a68b8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.btn2 {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.div-btn {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 30px;
+  left: 120px;
+  width: 130px;
+  height: 30px;
+  background-color: #3a68b8;
+  border-radius: 5px;
+}
+
+.img-btn {
+  position: relative;
+  top: 5px;
+  right: 5px;
+  width: 15px;
+  height: 20px;
+}
+.section-container2 img {
+  margin-top: 100px;
+  padding: 40px;
+}
+.section-container3 {
+  background: var(--020-a-18, #020a18);
+  display: flex;
+  gap: 150px;
+  margin-top: 150px;
+}
+.div-cnt1 {
+  margin-top: 130px;
+}
+.div-cnt1 h1 {
+  color: white;
+  font-size: 40px;
+}
+.div-cnt1 p {
+  color: grey;
+  margin-top: 20px;
+  line-height: 25px;
+}
+.div-cnt1 button {
+  margin-top: 50px;
+  width: 140px;
+  height: 45px;
+  color: white;
+  background: #3a68b8;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.navbar1 {
+  width: 420.963px;
+  height: 478px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+}
+.navbar2 {
+  width: 420.963px;
+  height: 478px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+}
+.navbar3 {
+  width: 420.963px;
+  height: 478px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+}
+.section-container4 {
+  position: relative;
+  margin-top: 200px;
+  display: flex;
+  gap: 25px;
+}
+.section-container5 {
+  display: flex;
+  gap: 340px;
+  margin-left: 170px;
+  position: relative;
+  bottom: 440px;
+}
+.section-container6 {
+  display: flex;
+  gap: 100px;
+  position: relative;
+  left: 90px;
+  bottom: 400px;
+  font-weight: 500p;
+  color: var(--ffffff, #fff);
+}
+.section-container6 h1 {
+  font-size: 25px;
+}
+.section-container6 p {
+  color: gray;
+}
+.text-sect6 {
+  position: relative;
+  left: 60px;
+}
+.section-container6 p {
+  margin-top: 30px;
+  position: relative;
+  right: 10px;
+  line-height: 25px;
+}
+.text-p {
+  position: relative;
+  left: 50px;
+}
+
+.section-container7 {
+  margin-left: 100px;
+  display: flex;
+  gap: 100px;
+}
+.h1-text {
+  font-size: 40px;
+  color: white;
+}
+.section-container7 p {
+  color: gray;
+  margin-top: 30px;
+  line-height: 25px;
+}
+.img2 {
+  position: relative;
+  bottom: 50px;
+}
+.footer-container {
+  width: 1920px;
+  height: 491.211px;
+  margin-top: 100px;
+  margin-left: 90px;
+  display: flex;
+  gap: 60px;
+}
+.footer-text {
+  color: #3a68b8;
+  margin-top: 20px;
+}
+.footer-text-p {
+  margin-top: 15px;
+  color: grey;
+}
+.btn-footer {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.div-btn-img {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.btn-footer2 {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.div-img-btn2 {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.btn-footer3 {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.div-img-btn3 {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.div-footer2 a {
+  display: flex;
+  text-decoration: none;
+  padding: 8px;
+  position: relative;
+  right: 10px;
+  top: 30px;
+  color: gray;
+}
+.div-footer2 h4 {
+  color: white;
+  margin-top: 30px;
+}
+
+.div-footer3 a {
+  display: flex;
+  text-decoration: none;
+  padding: 8px;
+  position: relative;
+  right: 10px;
+  top: 30px;
+  color: gray;
+}
+.div-footer3 h4 {
+  color: white;
+  margin-top: 30px;
+}
+
+.div-footer4 a {
+  display: flex;
+  text-decoration: none;
+  padding: 8px;
+  position: relative;
+  right: 10px;
+  top: 30px;
+  color: gray;
+}
+.div-footer4 h4 {
+  color: white;
+  margin-top: 30px;
+}
+
+.div-footer5 {
+  margin-top: 30px;
+}
+.div-footer5 h4 {
+  color: white;
+}
+.div-footer5 p {
+  color: grey;
+  margin-top: 35px;
+}
+.div-footer5 span {
+  color: white;
+  position: relative;
+  top: 20px;
+}
+.img-footer {
+  position: relative;
+  top: 80px;
+  right: 145px;
+}
